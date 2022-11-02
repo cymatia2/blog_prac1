@@ -1,5 +1,5 @@
 """
-ASGI config for blog_parc1 project.
+ASGI config for blog_prac1 project.
 
 It exposes the ASGI callable as a module-level variable named ``application``.
 
@@ -11,6 +11,6 @@ import os
 
 from django.core.asgi import get_asgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'blog_parc1.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'blog_prac1.settings')
 
 application = get_asgi_application()
